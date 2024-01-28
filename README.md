@@ -22,4 +22,8 @@ DevOps-Assignment-2 Part 1
     - docker run --name nginx_container_2 --network my_network -d nginx
  -  Verify that the "nginx" default page is accessible on your host machine at http://localhost:8082.
     - docker ps   
+ - Use the "docker container ls" command to display information about all running containers. Document your findings in the README.md file
+    - docker container ls > README.md
+
+
    
