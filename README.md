@@ -27,5 +27,5 @@ DevOps-Assignment-2 Part 1
  - Stop and remove all containers. 
     - docker stop $(docker ps -a -q)
     - docker rm $(docker ps -aq)
-
-   
+ - Cleanup: Remove the "my_network" network
+    - docker network rm my_network
