@@ -1,5 +1,5 @@
-# DevOps-Assignment-2
-DevOps-Assignment-2
+# DevOps-Assignment-2 Part 1
+DevOps-Assignment-2 Part 1
 
  - Create a new Docker network named "my_network" using the bridge driver
     - docker network create --driver=bridge my_network
@@ -18,3 +18,8 @@ DevOps-Assignment-2
  - Stop and remove the "nginx_container" container
     - docker stop nginx_container
     - docker rm nginx_container
+ - Create a new Docker container using the "nginx" image and connect it to the "my_network" network. Name the container "nginx_container_2"
+    - docker run --name nginx_container_2 --network my_network -d nginx
+ -  Verify that the "nginx" default page is accessible on your host machine at http://localhost:8082.
+    - docker ps   
+   
