@@ -24,6 +24,8 @@ DevOps-Assignment-2 Part 1
     - docker ps   
  - Use the "docker container ls" command to display information about all running containers. Document your findings in the README.md file
     - docker container ls > README.md
-
+ - Stop and remove all containers. 
+    - docker stop $(docker ps -a -q)
+    - docker rm $(docker ps -aq)
 
    
